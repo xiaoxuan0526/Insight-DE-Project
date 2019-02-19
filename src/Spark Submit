@@ -1,0 +1,7 @@
+export PYSPARK_PYTHON=python3
+spark-submit \
+--master spark://10.0.0.8:7077 \
+--executor-memory 6G \
+--py-files /home/ubuntu/batch_processing.py \
+/home/ubuntu/batch_processing.py \
+1000
