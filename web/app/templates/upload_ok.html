@@ -1,0 +1,54 @@
+<form action="http://ec2-3-89-213-90.compute-1.amazonaws.com:5000/selection_submitted" enctype="multipart/form-data" method="POST">
+    <table style="height: 528px; margin-left: auto; margin-right: auto; width: 617px;">
+        <tbody>
+            <tr style="height: 54px;">
+                <td style="width: 618px; height: 54px; text-align: center;" colspan="4">
+                    <p style="text-align: center;"><span style="color: #000000;"><span style="caret-color: #339966;"><strong>Detection Results - Mark the Stolen Pictures below</strong></span></span></p>
+                </td>
+            </tr>
+            <tr style="height: 27px;">
+                <td style="width: 300px; height: 27px; text-align: center;">
+                    <p><span style="color: #000000;">Your Image</span></p>
+                </td>
+                <td style="width: 312px; text-align: center; height: 27px;" colspan="3"><span style="color: #000000;">Detection Results</span></td>
+            </tr>
+            <tr style="height: 151px;">
+                <td style="width: 300px; height: 151px;">
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/test1.jpg') }}" alt="Your Image" width="300" height="300" /></p>
+                    <p>&nbsp;</p>
+                </td>
+                <td style="width: 100px; height: 151px;">
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/result1.jpg') }}" alt="Result 1" width="100" height="100" /></p>
+                    <p style="text-align: center;"><input name="r1check" type="checkbox" value="1" /> result 1</p>
+                    <p style="text-align: center;">&nbsp;</p>
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/result4.jpg') }}" alt="Result 4" width="100" height="100" /></p>
+                    <p style="text-align: center;"><input name="r4check" type="checkbox" value="1" /> result 4</p>
+                </td>
+                <td style="width: 100px; height: 151px;">
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/result2.jpg') }}" alt="Result 2" width="100" height="100" /></p>
+                    <p style="text-align: center;"><input name="r2check" type="checkbox" value="1" /> result 2</p>
+                    <p style="text-align: center;">&nbsp;</p>
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/result5.jpg') }}" alt="Result 5" width="100" height="100" /></p>
+                    <p style="text-align: center;"><input name="r5check" type="checkbox" value="1" /> result 5</p>
+                </td>
+                <td style="width: 100px; height: 151px;">
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/result3.jpg') }}" alt="Result 3" width="100" height="100" /></p>
+                    <p style="text-align: center;"><input name="r3check" type="checkbox" value="1" /> result 3</p>
+                    <p style="text-align: center;">&nbsp;</p>
+                    <p><img style="display: block; margin-left: auto; margin-right: auto;" src="{{ url_for('static', filename= './images/'+userinput+'/result6.jpg') }}" alt="Result 6" width="100" height="100" /></p>
+                    <p style="text-align: center;"><input name="r6check" type="checkbox" value="1" /> result 6</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table style="height: 5px; margin-left: auto; margin-right: auto;" width="142">
+        <tbody>
+            <tr>
+                <td style="text-align: center; width: 132px;">
+                    <p style="text-align: center;"><input class="button-new" style="margin-top: 15px;" type="submit" value="submit" /></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
