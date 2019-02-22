@@ -1,12 +1,5 @@
-Motivation:The theft and misuse of personal images has been a growing problem 
-
-Solution:Design an application for social media
-
-1.Upload a picture 
-
-2.Return the similar pictures
-
-3.Mark the stolen images and submit them as a claim
-
+![picture1](https://github.com/xiaoxuan0526/Insight-DE-Project/blob/master/slides/WechatIMG268.png)
+![picture2](https://github.com/xiaoxuan0526/Insight-DE-Project/blob/master/slides/WechatIMG269.png)
+![picture3](https://github.com/xiaoxuan0526/Insight-DE-Project/blob/master/slides/WechatIMG270.png)
 
 
